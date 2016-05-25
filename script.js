@@ -39,16 +39,9 @@ quickBtn.prototype.li = function(){
 	};
 
 	function outputSize(size) {
-		if (output.length < 9) {
-			size = '34px';
-		} else if (output.length < 13) {
-			size = '28px'
-		} else if (output.length < 18) {
-			size = '18px'
-		} else if (output.length < 25) {
-			size = '12px'
-		}
-		input.css('font-size', size);
+  output.length < 9 ? size = "34px" : output.length < 13 ? size = "28px" :
+    output.length < 18 ? size = "18px" : output.length < 25 && (size = "12px"),
+    input.css("font-size", size)
 	};
 
 	var solution = '', getPercent = '';
