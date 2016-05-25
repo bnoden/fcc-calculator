@@ -1,0 +1,62 @@
+body {
+  font-family: 'Play', sans-serif;
+	background-color: #1c1c1c;
+}
+
+
+
+.container {
+	width: 300px;
+	height: 360px;
+	text-align: center;
+	margin: auto;
+	padding: 3px;
+	position: absolute;
+	background: #1c1c1c;
+}
+
+.textbox {
+  font-family: 'Play', sans-serif;
+	width: 210px;
+	height: 40px;
+	text-align: right;
+	margin: 4px 6px 0px 0px;
+	font-size: 34px;
+  background: #1c1c1c;
+  border-width: 0px;
+  border-color: #1c1c1c;
+  border-style: solid;
+  border-radius: 4px;
+  color: #E3EFFA;
+}
+
+#keypad li {
+  font-size: 34px;
+  float: left;
+  margin: 4px;
+  border-width: 1px;
+  border-color: #e3effa;
+  border-style: solid;
+  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+  color: #E3EFFA;
+  background: #1c1c1c;
+  cursor: pointer;
+}
+
+#keypad li:hover {
+  background: #1C9C66;
+}
+
+#keypad li:active {
+  background: #97BFAE;
+}
+
+#keypad li:last-child {
+	width: 98px;
+}
+
+ul {
+  list-style-type: none
+}
