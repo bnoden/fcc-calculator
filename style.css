@@ -15,7 +15,7 @@ body {
 	background: #1c1c1c;
 }
 
-.textbox {
+#input {
   font-family: 'Play', sans-serif;
 	width: 210px;
 	height: 40px;
